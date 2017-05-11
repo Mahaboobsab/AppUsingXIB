@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FirstViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    FirstViewController *viewController = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    self.window.rootViewController = viewController;
     return YES;
 }
 

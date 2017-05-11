@@ -15,6 +15,10 @@
 		292DB16F1E9E32B900DABC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292DB16D1E9E32B900DABC85 /* LaunchScreen.storyboard */; };
 		292DB17A1E9E32B900DABC85 /* AppUsingXIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292DB1791E9E32B900DABC85 /* AppUsingXIBTests.m */; };
 		292DB1851E9E32B900DABC85 /* AppUsingXIBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292DB1841E9E32B900DABC85 /* AppUsingXIBUITests.m */; };
+		292DB1951E9E32CF00DABC85 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292DB1931E9E32CF00DABC85 /* FirstViewController.m */; };
+		292DB1961E9E32CF00DABC85 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292DB1941E9E32CF00DABC85 /* FirstViewController.xib */; };
+		292DB19A1E9E455200DABC85 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292DB1981E9E455200DABC85 /* SecondViewController.m */; };
+		292DB19B1E9E455200DABC85 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292DB1991E9E455200DABC85 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		292DB1801E9E32B900DABC85 /* AppUsingXIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUsingXIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		292DB1841E9E32B900DABC85 /* AppUsingXIBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUsingXIBUITests.m; sourceTree = "<group>"; };
 		292DB1861E9E32B900DABC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292DB1921E9E32CF00DABC85 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		292DB1931E9E32CF00DABC85 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		292DB1941E9E32CF00DABC85 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		292DB1971E9E455200DABC85 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		292DB1981E9E455200DABC85 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		292DB1991E9E455200DABC85 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,14 @@
 			children = (
 				292DB1621E9E32B900DABC85 /* AppDelegate.h */,
 				292DB1631E9E32B900DABC85 /* AppDelegate.m */,
+				292DB1971E9E455200DABC85 /* SecondViewController.h */,
+				292DB1981E9E455200DABC85 /* SecondViewController.m */,
+				292DB1991E9E455200DABC85 /* SecondViewController.xib */,
 				292DB1651E9E32B900DABC85 /* ViewController.h */,
 				292DB1661E9E32B900DABC85 /* ViewController.m */,
+				292DB1921E9E32CF00DABC85 /* FirstViewController.h */,
+				292DB1931E9E32CF00DABC85 /* FirstViewController.m */,
+				292DB1941E9E32CF00DABC85 /* FirstViewController.xib */,
 				292DB1681E9E32B900DABC85 /* Main.storyboard */,
 				292DB16B1E9E32B900DABC85 /* Assets.xcassets */,
 				292DB16D1E9E32B900DABC85 /* LaunchScreen.storyboard */,
@@ -249,6 +265,8 @@
 				292DB16F1E9E32B900DABC85 /* LaunchScreen.storyboard in Resources */,
 				292DB16C1E9E32B900DABC85 /* Assets.xcassets in Resources */,
 				292DB16A1E9E32B900DABC85 /* Main.storyboard in Resources */,
+				292DB1961E9E32CF00DABC85 /* FirstViewController.xib in Resources */,
+				292DB19B1E9E455200DABC85 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292DB19A1E9E455200DABC85 /* SecondViewController.m in Sources */,
 				292DB1671E9E32B900DABC85 /* ViewController.m in Sources */,
 				292DB1641E9E32B900DABC85 /* AppDelegate.m in Sources */,
 				292DB1611E9E32B900DABC85 /* main.m in Sources */,
+				292DB1951E9E32CF00DABC85 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
